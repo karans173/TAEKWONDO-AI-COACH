@@ -1,0 +1,20 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Data & Datasets
+data/
+
+# Model Weights (Exceeds GitHub size limits)
+weights/
+*.pth
+*.task
+pose_landmarker/
+
+# Jupyter/OS files
+.ipynb_checkpoints/
+.DS_Store
